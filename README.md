@@ -20,13 +20,13 @@ The interface allows you to type a keyword and get the sentiment analysis with a
 2. Nextly, i have cleaned tweets using regular expressions.
 3. The cleaned version of data is then provided to Textblob model to obtain the polarity.
 4. The polarity is categorized into 7 types namely:
-          1.POSITIVE (0.3<polarity<=0.6)
-          2.WEAKLY POSITIVE (0<polarity<=0.3)
-          3.STRONGLY POSITIVE (0.6<polarity<=1)
-          4.NEGATIVE (-0.3<polarity<=-0.6)
-          5.WEAKLY NEGATIVE (-0.3<polarity<0)
-          6.STRONGLY NEGATIVE (-0.6<polarity<=-1)
-          7.NEUTRAL (polarity=0)
+        <br>    1.POSITIVE (0.3<polarity<=0.6) </br>
+        <br>    2.WEAKLY POSITIVE (0<polarity<=0.3) </br>
+        <br>    3.STRONGLY POSITIVE (0.6<polarity<=1)</br>
+        <br>    4.NEGATIVE (-0.3<polarity<=-0.6)</br>
+        <br>    5.WEAKLY NEGATIVE (-0.3<polarity<0)</br>
+        <br>    6.STRONGLY NEGATIVE (-0.6<polarity<=-1)</br>
+       <br>     7.NEUTRAL (polarity=0)</br>
 5. According to the polarity obtained, a pie chart is constructed using matplotlib and saved in plot1.png    and updated with every keyword search.
 6. All of the web templates and python code is connected via using Flask.
 
