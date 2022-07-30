@@ -30,4 +30,4 @@ The interface allows you to type a keyword and get the sentiment analysis with a
 5. According to the polarity obtained, a pie chart is constructed using matplotlib and saved in plot1.png and updated with every keyword search.
 6. All of the web templates and python code is connected via using Flask.
 
-For more details you can go through with my project report uploaded as **TwitterSentiment.pdf**
+For more details you can go through with my project report uploaded as [Twitter Sentiment](https://github.com/vj-vanshika/TwitterSentimentAnalysis/blob/main/TwitterSentiment.pdf)
