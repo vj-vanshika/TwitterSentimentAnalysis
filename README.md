@@ -16,7 +16,7 @@ I have created a Web Application for sentiment analysis using TextBlob and flask
 The interface allows you to type a keyword and get the sentiment analysis with a general report and visual representation of analysis.
 
 ## Steps:
-1. Fetched real time tweets from Tweepy API, encoded them into utf-8 and saved them into a csv file called result.csv 
+1. Fetched real time tweets from Tweepy API, encoded them into utf-8 and saved them into a csv file called **result.csv** 
 2. Nextly, i have cleaned tweets using regular expressions.
 3. The cleaned version of data is then provided to Textblob model to obtain the polarity.
 4. The polarity is categorized into 7 types namely: <br> </br>
@@ -27,7 +27,7 @@ The interface allows you to type a keyword and get the sentiment analysis with a
         <br>    5.WEAKLY NEGATIVE (-0.3<polarity<0)</br>
         <br>    6.STRONGLY NEGATIVE (-0.6<polarity<=-1)</br>
        <br>     7.NEUTRAL (polarity=0)</br> <br> </br>
-5. According to the polarity obtained, a pie chart is constructed using matplotlib and saved in plot1.png    and updated with every keyword search.
+5. According to the polarity obtained, a pie chart is constructed using matplotlib and saved in plot1.png and updated with every keyword search.
 6. All of the web templates and python code is connected via using Flask.
 
-For more details you can go through with my project report uploaded as TwitterSentiment.pdf
+For more details you can go through with my project report uploaded as **TwitterSentiment.pdf**
